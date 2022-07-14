@@ -1,0 +1,6 @@
+
+
+SELECT
+	AVG(DISTINCT reports_to)
+FROM
+	employees

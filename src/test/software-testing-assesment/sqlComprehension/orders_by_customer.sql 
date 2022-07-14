@@ -1,0 +1,4 @@
+
+SELECT COUNT(customer_id)
+from orders
+where  customer_id = (select customer_id where company_name = 'Simons bistro' ) AND
